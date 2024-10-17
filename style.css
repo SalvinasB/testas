@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(228, 228, 209);
+}
+
+.maintext {
+  color: rgb(250, 14, 14);
+}
+
+.boldtext {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.specialbutton {
+  border-width: 5px;
+  border-color: red;
+  border-style: double;
+  font-size: 48px;
+  border-radius: 20px;
+  background-color: antiquewhite;
+  padding: 20px;
+  margin: 50px;
+}
+
+.specialbutton:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+.linkclass {
+  color: rgb(255, 0, 0);
+}
+
+.linkclass:visited {
+  color: rgb(63, 15, 194);
+}
